@@ -91,10 +91,3 @@ github_helper = Github_Helper()
 for directory in dirs:
     github_helper.create_remote_repo_user_level(directory)
 
-# user, g = get_user()
-# org = g.get_organization('azureautomation')
-# repo = org.get_repo('test-kranthi')
-# fp = open(os.path.join(os.getcwd(), "test", "test2.py"))
-# file_content = fp.read()
-# create_file = repo.create_file("test2.py", "initial commit", file_content, branch="master")
-# print("File created --- %s" %(str(create_file)))
