@@ -9,8 +9,8 @@ class Github_Helper:
         self.github_accessor_for_aa_org = None
         self.github_accessor_for_krmanupa = None
         self.org_name = "azureautomation"
-        self.Token_for_aa_org = "1798a0271a97a8ebc0df51d7fc6822c257755bdd"
-        self.Token_for_krmanupa = "a625ce0d9bcc8e0ec9e58ac9d0dd5638815aaea6"
+        self.Token_for_aa_org = "" #replace while using
+        self.Token_for_krmanupa = "" #replace while using
 
     def init_org_github_acc(self):
         if self.github_accessor_for_aa_org == None and self.user_for_aa_org == None:
